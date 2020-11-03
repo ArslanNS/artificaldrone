@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/user/simulation_ws/build/tum_ardrone_sim/ardrone_autonomy/CMakeFiles/ardronelib"
+		},
+		{
+			"file" : "/home/user/simulation_ws/build/tum_ardrone_sim/ardrone_autonomy/CMakeFiles/ardronelib.rule"
+		},
+		{
+			"file" : "/home/user/simulation_ws/build/tum_ardrone_sim/ardrone_autonomy/CMakeFiles/ardronelib-complete.rule"
+		},
+		{
+			"file" : "/home/user/simulation_ws/devel/src/ardronelib-stamp/ardronelib-install.rule"
+		},
+		{
+			"file" : "/home/user/simulation_ws/devel/src/ardronelib-stamp/ardronelib-mkdir.rule"
+		},
+		{
+			"file" : "/home/user/simulation_ws/devel/src/ardronelib-stamp/ardronelib-download.rule"
+		},
+		{
+			"file" : "/home/user/simulation_ws/devel/src/ardronelib-stamp/ardronelib-update.rule"
+		},
+		{
+			"file" : "/home/user/simulation_ws/devel/src/ardronelib-stamp/ardronelib-patch.rule"
+		},
+		{
+			"file" : "/home/user/simulation_ws/devel/src/ardronelib-stamp/ardronelib-configure.rule"
+		},
+		{
+			"file" : "/home/user/simulation_ws/devel/src/ardronelib-stamp/ardronelib-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ardronelib"
+		],
+		"name" : "ardronelib"
+	}
+}
