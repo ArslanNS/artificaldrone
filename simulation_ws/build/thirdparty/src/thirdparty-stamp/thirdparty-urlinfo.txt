@@ -1,3 +1,0 @@
-repository='external project URL'
-module='/home/user/simulation_ws/src/tum_ardrone_sim/tum_ardrone/thirdparty/thirdparty.tar.gz'
-tag=''
