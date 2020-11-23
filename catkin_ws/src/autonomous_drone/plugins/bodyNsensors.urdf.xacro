@@ -48,4 +48,6 @@ xmlns:xacro="http://ros.org/wiki/xacro">
     <gazebo_quadrotor_plugins/>
   </xacro:macro>
     
-    <quadrotor_base_body /> 
+    <quadrotor_base_body />
+    
+</robot>
