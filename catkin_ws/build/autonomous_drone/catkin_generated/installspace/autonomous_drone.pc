@@ -1,4 +1,4 @@
-prefix=/home/arslan/catkin_ws/install
+prefix=/home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/install
 
 Name: autonomous_drone
 Description: Description of autonomous_drone

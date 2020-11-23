@@ -1,8 +1,8 @@
-# Install script for directory: /home/arslan/catkin_ws/src/autonomous_drone
+# Install script for directory: /home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/src/autonomous_drone
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arslan/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslan/catkin_ws/build/autonomous_drone/catkin_generated/installspace/autonomous_drone.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/build/autonomous_drone/catkin_generated/installspace/autonomous_drone.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autonomous_drone/cmake" TYPE FILE FILES
-    "/home/arslan/catkin_ws/build/autonomous_drone/catkin_generated/installspace/autonomous_droneConfig.cmake"
-    "/home/arslan/catkin_ws/build/autonomous_drone/catkin_generated/installspace/autonomous_droneConfig-version.cmake"
+    "/home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/build/autonomous_drone/catkin_generated/installspace/autonomous_droneConfig.cmake"
+    "/home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/build/autonomous_drone/catkin_generated/installspace/autonomous_droneConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autonomous_drone" TYPE FILE FILES "/home/arslan/catkin_ws/src/autonomous_drone/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autonomous_drone" TYPE FILE FILES "/home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/src/autonomous_drone/package.xml")
 endif()
 

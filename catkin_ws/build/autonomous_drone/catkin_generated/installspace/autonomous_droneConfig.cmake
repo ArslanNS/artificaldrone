@@ -67,14 +67,14 @@ set(autonomous_drone_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(autonomous_drone_SOURCE_PREFIX /home/arslan/catkin_ws/src/autonomous_drone)
-  set(autonomous_drone_DEVEL_PREFIX /home/arslan/catkin_ws/devel)
+  set(autonomous_drone_SOURCE_PREFIX /home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/src/autonomous_drone)
+  set(autonomous_drone_DEVEL_PREFIX /home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/devel)
   set(autonomous_drone_INSTALL_PREFIX "")
   set(autonomous_drone_PREFIX ${autonomous_drone_DEVEL_PREFIX})
 else()
   set(autonomous_drone_SOURCE_PREFIX "")
   set(autonomous_drone_DEVEL_PREFIX "")
-  set(autonomous_drone_INSTALL_PREFIX /home/arslan/catkin_ws/install)
+  set(autonomous_drone_INSTALL_PREFIX /home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/install)
   set(autonomous_drone_PREFIX ${autonomous_drone_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/arslan/catkin_ws/install/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/install/lib;/home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
