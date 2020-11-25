@@ -7,16 +7,16 @@ xmlns:xacro="http://ros.org/wiki/xacro">
    
 <xacro:property name="M_PI" value="3.1415926535897931" />
 
-    <!-- Included gazebo simulation plugins and controller -->  
-  <xacro:include filename="$(find autonomous_drone)/plugins/gazebo_sim_plugins.urdf.xacro" />
-  <xacro:include filename="$(find autonomous_drone)/plugins/gazebo_sim_controller.urdf.xacro" />
-
   <!-- Combining Gazebo Plugins as gazebo_quadrotor_plugins -->
   <xacro:macro name="gazebo_quadrotor_plugins">
     <canonicalBody>base_link</canonicalBody>
     <quadrotor_sensors/>
     <quadrotor_controller/>
   </xacro:macro>
+     <!-- Included gazebo simulation plugins and controller -->  
+  <xacro:include filename="$(find autonomous_drone)/plugins/gazebo_sim_plugins.urdf.xacro" />
+  <xacro:include filename="$(find autonomous_drone)/plugins/gazebo_sim_controller.urdf.xacro" />
+
 
   <!-- Main body link -->
   <xacro:macro name="quadrotor_base_body">
@@ -48,6 +48,5 @@ xmlns:xacro="http://ros.org/wiki/xacro">
     <gazebo_quadrotor_plugins/>
   </xacro:macro>
     
-    <quadrotor_base_body />
-    
+    <quadrotor_base_body/>
 </robot>

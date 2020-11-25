@@ -6,10 +6,20 @@
     </include>
 
     <param name="robot_description" command="$(find xacro)/xacro --inorder 
-                                          '$(find autonomous_drone)/plugins/bodyNsensors.urdf.xacro'" />
+                                    '/home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/src/autonomous_drone/plugins/bodyNsensors.urdf.xacro'" />
+
     <node pkg="gazebo_ros" type="spawn_model" name="spawn_robot" respawn="false" output="screen" 
          args="-urdf -model myquadrotor -param robot_description" />
-    <node pkg="message_to_tf" type="message_to_tf" name="ground_to_tf" output="screen" />
-        <param name="odometery_topic" value="ground_truth/state" />
-        <param name="frame_id" value="nav" />
+
+    <node pkg="message_to_tf" type="message_to_tf" name="ground_truth_to_tf" output="screen">
+     <param name="odometry_topic" value="ground_truth/state" />
+     <param name="frame_id" value="nav" />
+   </node>
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher"
+         name="robot_state_publisher" output="screen">
+        <param name="tf_prefix" type="string" value=""/>
+        <param name="publish_frequency" type="double" value="50"/>
+    </node>
+    
  </launch>
