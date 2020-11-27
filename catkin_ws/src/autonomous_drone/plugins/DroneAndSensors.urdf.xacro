@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<robot name="myquadrotor"
+<robot name="mydrone"
 xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
 xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
 xmlns:xacro="http://ros.org/wiki/xacro">
@@ -19,12 +19,12 @@ xmlns:xacro="http://ros.org/wiki/xacro">
 
 
   <!-- Main body link -->
-  <xacro:macro name="quadrotor_base_body">
+  <xacro:macro name="drone_base_body">
     <link name="base_link">
       <inertial>
-        <mass value="1.477" />
+        <mass value="1.233" />
         <origin xyz="0 0 0" />
-        <inertia ixx="0.01152" ixy="0.0" ixz="0.0" iyy="0.01152" iyz="0.0" izz="0.0218" />
+        <inertia ixx="0.01153" ixy="0.0" ixz="0.0" iyy="0.01153" iyz="0.0" izz="0.0219" />
       </inertial>
 
       <visual>
