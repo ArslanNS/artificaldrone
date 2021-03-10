@@ -1,0 +1,8 @@
+prefix=/home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/install
+
+Name: drone_gazebo
+Description: Description of drone_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

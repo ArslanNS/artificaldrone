@@ -7,6 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PKG_CONFIG_PATH='/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig'
 export PWD='/home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/build'
-export ROS_PACKAGE_PATH='/home/arslan/Project/IndividualProject_2020_Arslan-Nazir/catkin_ws/src:/opt/ros/kinetic/share'
