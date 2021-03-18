@@ -4,7 +4,6 @@
     <arg name="odom_frame" default="nav"/>
     <arg name="scan_topic" default="scan"/>
 
-    <node pkg="rviz" type="rviz" name="rviz" />
 
     <node pkg="gmapping" type="slam_gmapping" name="quadrotor_SLAM" output="screen" >
         <param name="map_frame" value="map"/>
@@ -12,5 +11,5 @@
         <param name="odom_frame" value="$(arg odom_frame)"/>
         <param name="scan_topic" value="scan"/>
     </node>
-    <include file="$(find drone_gazebo)/launch/Start.launch" />
+    <include file="$(find drone_gazebo)/launch/startObs.launch" />
 </launch>
