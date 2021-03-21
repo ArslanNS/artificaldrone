@@ -24,4 +24,5 @@
       <arg name="y" default="0.0"/>
       <arg name="z" default="0.3"/>
   </include>
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find drone_gazebo)/rviz_cfg/SLAM.rviz"/>
 </launch>

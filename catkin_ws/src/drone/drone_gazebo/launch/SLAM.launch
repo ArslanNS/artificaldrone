@@ -11,5 +11,5 @@
         <param name="odom_frame" value="$(arg odom_frame)"/>
         <param name="scan_topic" value="scan"/>
     </node>
-    <include file="$(find drone_gazebo)/launch/startObs.launch" />
+    <include file="$(find drone_gazebo)/launch/Start.launch" />
 </launch>
